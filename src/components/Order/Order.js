@@ -25,6 +25,7 @@ const Order = (props)=>{
          <div className='Order'>
          <p>Ingredients:{ingredientOutput}</p>
     <p>Price:<strong> {props.price} Rs</strong></p>
+    <p>Name:{props.Name}</p>
     </div> 
     );
 
